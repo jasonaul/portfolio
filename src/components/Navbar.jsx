@@ -16,7 +16,10 @@ class Navbar extends React.Component {
                 <nav class="header-main" id="main-nav">
                     <ul class="header-main-list">
                         <li class="nav-text-color">
-                            <a href="/destinations">Home</a>
+                            <a href="/">Home</a>
+                        </li>
+                        <li class="nav-text-color">
+                            <a href="/">About</a>
                         </li>
                         <li>
                             <a href="/games">Portfolio</a>

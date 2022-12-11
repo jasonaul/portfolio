@@ -1,38 +1,58 @@
-body {
-    background-color: rgb(20, 20, 20);
-    margin: 0px;
+.jason-CSS {
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+    padding-top: 0.45em;
+    padding-bottom: 0.45em;
+    z-index: 555;
+    backdrop-filter: blur(1px);
+    position: fixed;
 }
 
-#menu {
-    height: 100vh;
+.jason-CSS-2 {
+    width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.css-logo-box {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
-.menu-item {
-    color: white;
-    font-size: clam(3rem, 8vw, 8rem);
-    font-family: "Ibarra Real Nova", serif;
-    display: block;
-    text-decoration: none;
-    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
-    transition: opacity 400ms ease;
-}
 
-#menu-items {
-    margin-left: clamp(4rem, 20vw, 48rem);
-}
-
-#menu-items:hover > .menu-item {
-    opacity: 0.3;
-}
-
-#menu-items:hover > .menu-item:hover {
-    opacity: 1;
-}
-
-#menu-background-pattern {
-    height: 100vh;
-    width: 100vw;
-    
+@media (min-width: 600px) {
+    .jason-CSS-2 {
+    padding-left: 24px;
+    padding-right: 24px;
+    }
 }
