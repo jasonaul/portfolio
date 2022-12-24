@@ -1,38 +1,45 @@
 import React from 'react'
-import './Navbar.css'
 
 
 class Navbar extends React.Component {
     render(){
         return(
-            <header className="bg-gray-800 sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
-            Jason Aul
-          </a>
-        </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-          <a href="#projects" className="mr-5 hover:text-white">
-            Past Work
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Skills
-          </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
-            Testimonials
-          </a>
-        </nav>
-        <a
-          href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-          Hire Me
-          {/* <ArrowRightIcon className="w-4 h-4 ml-1" /> */}
-        </a>
-      </div>
-    </header>
-  );
-}
+            <div id="body">
+            <header class="Allhead transparent" id="Header">
+            <div class="header-logo">
+                <a class="logo" title="Jason Aul" alt="Aul">
+                    <img id="logo-image" src='https://i.imgur.com/KZu91PC.png'></img>
+                </a>
+            </div>
+            <div class="header-nav-full">
+            <div class="header-left">
+                <nav class="header-main" id="main-nav">
+                    <ul class="header-main-list">
+                        <li class="nav-text-color">
+                            <a href="/">Home</a>
+                        </li>
+                        <li class="nav-text-color">
+                            <a href="/">About</a>
+                        </li>
+                        <li>
+                            <a href="/games">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="/games">Resume</a>
+                        </li>
+                    </ul>
+                </nav>
+            <div class="header-right">
+                <nav class="header-sub" id="sub-nav">
+
+                </nav>
+            </div>
+            </div>
+            </div>
+            </header>
+            </div>
+        )
+    }
 }
 
 
