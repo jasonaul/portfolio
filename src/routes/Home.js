@@ -1,8 +1,12 @@
 import React from 'react'
 
 const Home = () => {
-  return (
+  return (<>
     <div>Home</div>
+    <div>
+    <button className="btn">Test</button>
+    </div>
+    </>
   )
 }
 
