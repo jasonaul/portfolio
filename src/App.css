@@ -59,7 +59,7 @@ font-size: 25px;
 padding-top: 25px; 
 }
 
-ul {
+/* ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -73,13 +73,13 @@ display: inline-block;
 padding: 0 0.5rem;
 color: black;
 
-}
+} */
 
 /* ul li:not(:last-child) {
 border-right: 1px solid black;
 } */
 
-li:not(:last-child) {
+/* li:not(:last-child) {
 margin: 20px;
 
 }
@@ -90,10 +90,10 @@ color: red;
 
 a {
 page-break-inside: avoid;
-}
+} */
 
 /* The "*" is a wildcard and applies those styles to all elements. Helps to reset CSS files in order to default all native browser margin/padding on different elements to a common value. */
-* {
+/* * {
 box-sizing: border-box;
 color: inherit;
 font: inherit;
@@ -101,7 +101,7 @@ line-height: inherit;
 margin: 0;
 padding: 0;
 text-decoration: inherit;
-}
+} */
 
 
 /* ------ */
