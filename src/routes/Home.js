@@ -3,6 +3,7 @@ import {Container, Row, Col} from "react-bootstrap";
 import Type from '../components/Type';
 import './Home.css'
 import Footer from '../components/Footer';
+import Introduction from '../components/Introduction';
 
 const Home = () => {
   return (
@@ -45,8 +46,9 @@ const Home = () => {
     </Container>
   </section>
 <div>
-  
+ 
 </div>
+ <Introduction />
   <Footer />
 
   
