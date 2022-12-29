@@ -1,6 +1,6 @@
 
 
-#hero-image {
+/* #hero-image {
   background-image:  url("https://upload.wikimedia.org/wikipedia/commons/1/1b/View_of_Santa_Maria_del_Fiore_in_Florence.jpg");
   height: 550px;
   background-position: center;
@@ -8,13 +8,13 @@
   background-size: cover;
   position: relative;
   margin-top: 15px;
-}
+} */
 
 /* Header/Nav CSS */
 
 
 
-.Allhead {
+/* .Allhead {
 color: #333;
 height: 115px;
 left: 0;
@@ -40,9 +40,9 @@ width: 100px;
 }
 
 .header-nav-full {
-display: fixed;
+display: fixed; */
 /* background: #fff;   */
-font-weight: 500;
+/* font-weight: 500;
 height: 90px;
 line-height: 90px;
 position: relative;
@@ -57,7 +57,7 @@ background: #cce8ec;
 .header-main-list {
 font-size: 25px;
 padding-top: 25px; 
-}
+} */
 
 /* ul {
 list-style-type: none;

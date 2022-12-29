@@ -10,6 +10,7 @@ import Contact from './routes/Contact';
 import Projects from './routes/Projects';
 import Skills from './routes/Skills';
 
+
 function App() {
   return (
     
@@ -23,7 +24,7 @@ function App() {
       <Route  path="/contact" element={<Contact />} />
 
     </Routes>
-
+    
 
     {/* <div class='App'>
       <div class="hero-image">

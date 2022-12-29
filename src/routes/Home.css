@@ -15,7 +15,10 @@
     text-align: left;
   }
 
-  
+  .home-col {
+    display: inline-block;
+    float: left;
+  }
   
   .heading {
     font-size: 2.4em !important;
@@ -53,8 +56,16 @@
     }
   }
 
-  .img-fluid {
-    max-width: 100%;
-    height: auto;
-    display: grid;
+  .home-image {
+    display: inline-block;
+    float: right; 
+    margin-right: 25px;
+    border-radius: 50%;
+  }
+
+  @media (max-width: 922px) {
+    .home-image {
+        display: block;
+        margin-right: 50%;
+    }
   }
