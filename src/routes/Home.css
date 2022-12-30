@@ -59,7 +59,7 @@
   .home-image {
     display: inline-block;
     float: right; 
-    margin-right: 25px;
+    height: 350px;
     border-radius: 50%;
   }
 

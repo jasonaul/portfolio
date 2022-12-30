@@ -1,9 +1,9 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import Button from "react-bootstrap";
-import CgWebsite from "react-icons/cg";
+import {Button} from "react-bootstrap";
+import {CgWebsite} from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-
+import '../routes/Projects.css'
 
 function Cards(props) {
     return (
@@ -21,6 +21,7 @@ function Cards(props) {
           {"\n"}
           {"\n"}
   
+          {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
   
           {!props.isBlog && props.demoLink && (
             <Button
