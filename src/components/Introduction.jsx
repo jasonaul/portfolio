@@ -31,12 +31,12 @@ function Introduction() {
               
               <br />
               <br />
-              I love applying my passions to develop products using the <span className="boldthings"> MERN stack</span>, and thoroughly enjoy utilizing React. I am currently strengtheningg my MERN stack skills and learning <b className="boldthings">Go.</b> 
+              I love applying my passions to develop products using the <span className="boldthings"> MERN stack</span>, and thoroughly enjoy utilizing React. I am currently strengthening my MERN stack skills and learning <b className="boldthings">Go.</b> 
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             {/* <TiltProps> */}
-              <img src={'https://i.imgur.com/KaJdR60.png'} className="img-fluid" alt="avatar" />
+              <img src={'https://i.imgur.com/INIVki2.jpg'} className="end-img" alt="avatar" />
             {/* </TiltProps> */}
           </Col>
         </Row>

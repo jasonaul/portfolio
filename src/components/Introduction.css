@@ -85,5 +85,12 @@
   }
   
   .icon-colour {
-    color: #black !important;
+    color: black !important;
+  }
+
+  .end-img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    max-height: 200px;
   }
