@@ -1,6 +1,7 @@
 .project-heading {
     text-align: center;
     padding: 4rem 0 2rem 0;
+    
   }
   
   .project-container {
@@ -12,9 +13,13 @@
     padding-bottom: 5rem;
     
   }
+
+  .blue {
+    color: #0355ff;
+  }
   
   .project-card {
-    background: #1a1919;
+    background: #bed1df;
     padding: 1.2rem 1rem;
     border-radius: 10%;
   }
@@ -23,8 +28,9 @@
     width: 100%;
   }
   .project-title {
-    color: #fff;
+    color: black;
     padding: 1rem 0;
+    
   }
   
   .pro-details p {
@@ -34,17 +40,30 @@
   }
 
   .pro-text {
-    color: white;
+    color: black;
+    margin-bottom: 10px;
+    
   }
   
   .pro-btns {
     display: flex;
+    
     justify-content: space-between;
     padding: 0.5rem 0;
   }
   
   .pro-btns .btn {
     padding: 0.5rem 1rem;
+    border-radius: 10px;
+    
+    
+
+  }
+
+  .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   @media screen and (max-width: 1040px) {

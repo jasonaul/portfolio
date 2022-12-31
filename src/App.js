@@ -9,6 +9,7 @@ import About from './routes/About';
 import Contact from './routes/Contact';
 import Projects from './routes/Projects';
 import Skills from './routes/Skills';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Route  path="/contact" element={<Contact />} />
 
     </Routes>
+    <Footer />
     
 
     {/* <div class='App'>

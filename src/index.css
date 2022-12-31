@@ -1,16 +1,3 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
@@ -18,7 +5,16 @@ code {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Outfit", sans-serif
+  font-family: "Outfit", sans-serif;
+  
+}
+
+.skillset {
+  background: #f1f5f8
+}
+
+.nav-linky {
+  color: black;
 }
 
 body {
@@ -28,6 +24,10 @@ body {
 h1, h4, p, a {
   color: black;
   text-decoration: none;
+}
+
+.skills-head {
+ text-align: center;
 }
 
 ul {
@@ -50,6 +50,7 @@ ul {
 .btn-light {
   background: transparent;
   color: black;
+  
 }
 
 .btn:hover{
@@ -57,3 +58,43 @@ ul {
   color: white;
   transition: 0.5s;
 }
+
+
+/* Icons */
+
+.skillset {
+  padding-top: 110px;
+}
+
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(0, 38, 255, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(12, 12, 251, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
+}
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(2, 32, 255, 0.883) !important;
+}
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+}
+
+

@@ -1,14 +1,15 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Cards from '../components/Cards';
 import './Projects.css'
 import ProjectCard from '../components/ProjectCards';
+
+
 
 const Projects = () => {
   return (
     <>
+    <div className='container'>
+      <h1 className='project-heading'>My recent</h1>
+    </div>
     <ProjectCard />
     
     </>

@@ -1,24 +1,27 @@
 import React from "react";
 import "./ProjectCards.css";
-import vgcombined from "../../src/assets/combined1.jpg"
-import { NavLink } from "react-router-dom";
+
+import MyProjects from "./MyProjects";
+import ProjectData from "./MyProjectsData";
+import { getValue } from "@testing-library/user-event/dist/utils";
 
 const ProjectCard = () => {
     return (
         <div className="work-container">
-            <h1 className="project-heading">Projects</h1>
+            <h1 className="project-heading">My recent <strong class="blue">Projects</strong></h1>
             <div className="project-container">
-                <div className="project-card">
-                    <img src={vgcombined} alt="Project Image" />
-                    <h2 className="project-title">Project Title</h2>
-                    <div className="pro-details">
-                        <p className="pro-text">This is the placeholder text for a project's details. This is the placeholder text for a project's details. This is the placeholder text for a project's details.</p>
-                        <div className="pro-btns">
-                            <NavLink to="url.com" className="btn">View</NavLink>
-                            <NavLink to="http://url.com" className="btn">Source</NavLink>
-                        </div>
-                    </div>
-                </div>
+                {ProjectData.map((value, index) => {
+                    return(
+                        <MyProjects 
+                            key={index}
+                            imgsrc={value.imgsrc}
+                            title={value.title}
+                            text={value.text}
+                            view={value.view}
+                            source={value.source}
+                        />
+                    )
+                })}
             </div>
         </div>
     )

@@ -15,19 +15,19 @@ const Navbar = () => {
                 <h1>Jason Aul</h1>
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
-                <li >
+                <li className='nav-linky'>
                     <Link to="/" onClick={handleClick}>Home</Link>
                 </li>
-                <li>
+                <li className='nav-linky'>
                     <Link to="/projects" onClick={handleClick}>Projects</Link>
                 </li>
-                <li>
+                <li className='nav-linky'>
                     <Link to="/skills" onClick={handleClick}>Skills</Link>
                 </li>
-                <li>
-                    <Link to="/about" onClick={handleClick}>About</Link>
+                <li className='nav-linky'>
+                    <Link to="/about" onClick={handleClick}>About & Resume</Link>
                 </li>
-                <li>
+                <li className='nav-linky'>
                     <Link to="/contact" onClick={handleClick}>Contact</Link>
                 </li>
             </ul>
