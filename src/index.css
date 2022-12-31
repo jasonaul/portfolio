@@ -13,6 +13,40 @@
   background: #f1f5f8
 }
 
+.button-about {
+  display: block;
+  margin-top: 25px;
+  /* background-color: blue;
+  color: white; */
+  font-size: larger;
+  text-align: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.resume {
+  background: blue;
+  color: white;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+
+
+.about-title {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.about-text {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+}
+
 .nav-linky {
   color: black;
 }

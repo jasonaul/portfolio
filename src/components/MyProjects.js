@@ -11,8 +11,8 @@ const MyProjects = (props) => {
             <div className="pro-details">
                 <p className="pro-text">{props.text}</p>
                 <div className="pro-btns">
-                    <NavLink to={props.view}className="btn one">View</NavLink>
-                    <NavLink to={props.source}className="btn two">Source</NavLink>
+                    <a href={props.view}className="btn one">View</a>
+                    <a href={props.source}className="btn two">Source</a>
                 </div>
             </div>
         </div>
