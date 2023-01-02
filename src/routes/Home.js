@@ -49,7 +49,7 @@ const Home = () => {
  
 </div>
  <Introduction />
-  <Footer />
+  
 
   
   </>
