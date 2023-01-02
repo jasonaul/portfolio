@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import './Footer.css'
 import {
     FaHome,
     FaPhone,
     FaMailBulk,
-    FaFacebook,
     FaTwitter,
     FaLinkedin,
     FaGithub

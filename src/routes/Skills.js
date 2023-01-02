@@ -23,7 +23,6 @@ import {
   SiPostman,
   SiFigma
 } from "react-icons/si";
-import { FaNodeJs } from 'react-icons/fa';
 
 const Skills = () => {
   return (

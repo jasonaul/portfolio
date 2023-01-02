@@ -3,7 +3,6 @@ import "./ProjectCards.css";
 
 import MyProjects from "./MyProjects";
 import ProjectData from "./MyProjectsData";
-import { getValue } from "@testing-library/user-event/dist/utils";
 
 const ProjectCard = () => {
     return (
