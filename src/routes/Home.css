@@ -39,10 +39,12 @@
     color: #003af8 !important;
     font-weight: 600 !important;
     padding-left: -10px;
+    z-index: -10;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
     color: #ff0000 !important;
+    z-index: -10;
   }
   
   @media (max-width: 767px) {
@@ -58,14 +60,27 @@
 
   .home-image {
     display: inline-block;
-    float: right; 
+    position: absolute;
+    margin-left: 25%;
+  
     height: 350px;
     border-radius: 50%;
+    
   }
 
   @media (max-width: 922px) {
     .home-image {
-        display: block;
-        margin-right: 50%;
+        display: flex;
+        justify-content: center;
+        margin-top: 325px;
+        z-index: -100;
     }
+  }
+
+  .type-h1{
+    margin-top: -20px;
+  }
+
+  .type-div {
+    margin-top: 100px;
   }

@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <>
     <div className='container'>
-      <h1 className='project-heading'>My recent</h1>
+      <h1 className='project-heading'></h1>
     </div>
     <ProjectCard />
     

@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <div className="header-nav">
             <Link to="/">
-                <h1>Jason Aul</h1>
+                <h1 className='nav-name'>Jason Aul</h1>
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li className='nav-linky'>

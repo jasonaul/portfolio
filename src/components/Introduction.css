@@ -15,8 +15,8 @@
   
   .home-about-body {
     padding-top: 50px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 100px;
+    margin-right: 125px;
     font-size: 1.2em !important;
     text-align: left;
   }
@@ -93,4 +93,12 @@
     margin: 0 auto;
     border-radius: 50%;
     max-height: 200px;
+  }
+
+  
+
+  @media (max-width: 922px) {
+    .h1-screen {
+        margin-top: 200px;
+    }
   }

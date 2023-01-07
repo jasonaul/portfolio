@@ -25,28 +25,34 @@ const Home = () => {
               <strong className="main-name"> Jason Aul</strong>
             </h1>
 
-            <div style={{ padding: 50, textAlign: "left" }}>
-              <h1>I'm a</h1><Type />
-              
-            </div>
+           
             
             
           </Col>
           <Col md={5} style={{ paddingBottom: 20 }}>
           <img
-              src={'https://i.imgur.com/KaJdR60.png'}
+              src={'https://i.imgur.com/INIVki2.jpg'}
               alt="home pic"
               className="home-image"
               style={{ maxHeight: "450px" }}
             />
+            
           </Col>
+          
         </Row>
+        
       </Container>
+      
     </Container>
   </section>
+  
 <div>
- 
+ <div className='type-div' style={{ padding: 50, textAlign: "left" }}>
+              <h1 className='type-h1'>I'm a</h1><Type />
+              
+            </div>
 </div>
+ 
  <Introduction />
   
 

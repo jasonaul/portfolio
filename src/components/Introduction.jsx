@@ -15,7 +15,7 @@ function Introduction() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 className='h1-screen' style={{ fontSize: "2.6em" }}>
               Hi there! Let me <span className="boldthings"> introduce </span> myself
             </h1>
             <p className="home-about-body">
@@ -36,7 +36,7 @@ function Introduction() {
           </Col>
           <Col md={4} className="myAvtar">
             {/* <TiltProps> */}
-              <img src={'https://i.imgur.com/INIVki2.jpg'} className="end-img" alt="avatar" />
+              <img src={'https://i.imgur.com/KaJdR60.png'} className="end-img" alt="avatar" />
             {/* </TiltProps> */}
           </Col>
         </Row>
