@@ -8,7 +8,7 @@ const ProjectData = [
     {
         imgsrc: vgtourism,
         title: "VGTourism",
-        text:"A destination-marketing and travel exploration website for real-world destinations and experiences that inspired places in video games.",
+        text:"A destination-marketing and travel exploration website for real-world destinations and experiences that inspired places in video games. After enjoying your favorite levels and stages from your favorite video games, explore the places that inspired their design. Travel the world, digital and beyond.",
         view: "https://github.com/jasonaul/vgtourism-frontend",
         source: "https://github.com/jasonaul/vgtourism-frontend"
     },
