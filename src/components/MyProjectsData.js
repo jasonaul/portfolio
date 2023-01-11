@@ -21,8 +21,8 @@ const ProjectData = [
     },
     {
         imgsrc: whatreference,
-        title: "VGTourism",
-        text:"A destination-marketing and travel exploration website for real-world destinations and experiences that inspired places in video games.",
+        title: "WhatReference",
+        text:"WhatReference is a Express.js / Node.js / MongoDB web app designed to catalogue cultural references within media. WhatReference is a database for users to create pages that describe and define cultural references in modern media. It is very common for media (TV, movies, video games, etc.) to make references to older media and pop culture. WhatReference will be a database for users to catalog these references, creating a library for other users to learn and understand the context behind such references and parodies.",
         view: "https://what-reference.herokuapp.com/",
         source: "https://github.com/jasonaul/WhatReference"
     },
